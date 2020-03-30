@@ -1,0 +1,163 @@
+html{
+background: url("fond.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+overflow-y: scroll;
+font-family:arial, sans-serif;
+}
+
+body{
+margin-left: auto;
+margin-right: auto;
+width:1024px;
+background-color:#E5E7EA;
+}
+
+h2{
+text-align: center;
+background-color: #2B6EA4;
+color: #E5E7EA;
+ 
+}
+
+h3{
+text-align: center;
+}
+
+p {
+	text-align: justify;
+	margin-left : 40px;
+	margin-right : 40px;
+}
+
+h4 {
+margin-left : 30px;
+
+}
+
+
+
+a.carre {
+   position:fixed;
+   width:50px;
+   height:50px;
+   background-color:#E5E7EA;
+   bottom:2%;
+   left:95%;
+}
+a.fleche {
+	position:fixed;
+	color : #2B6EA4;
+	bottom:1.2%;
+	left:95.7%;
+	font-size:325%;
+}
+
+
+div.menu {
+  width:200px;
+  position:fixed;
+  left:85.5%;
+  top:2%;
+
+}
+
+div.menu a {
+  background-color: #E5E7EA;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  list-style-type:none;
+  border:0.5px solid white;
+}
+
+div.menu a:hover {
+  background-color: #ccc;
+  color:white;
+}
+
+div.menu a.active {
+  background-color: #2B6EA4;
+  color: white;
+  border:0.5px solid #2B6EA4;
+}
+
+div.part {
+  width:200px;
+  position:fixed;
+  left:2%;
+  top:2%;
+
+}
+
+div.part a {
+  background-color: #E5E7EA;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  list-style-type:none;
+  border:0.5px solid white;
+}
+
+div.part a:hover {
+  background-color: #ccc;
+  color:white;
+}
+
+@-webkit-keyframes rotating{
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+div.rorating img {
+	left:300px;
+	bottom:50px
+}
+
+div.def_jp {
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+}
+
+div.vita {
+transition: transform .1s;*
+}
+
+div.vita:hover {
+transform: scale(1.2);
+}

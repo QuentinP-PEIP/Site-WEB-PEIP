@@ -1,0 +1,32 @@
+html {
+	background-color:#94D4F3;
+}
+
+div.menu {
+  width:200px;
+  position:fixed;
+  left:85.5%;
+  top:2%;
+
+}
+
+div.menu a {
+  background-color: #E5E7EA;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  list-style-type:none;
+  border:0.5px solid white;
+}
+
+div.menu a:hover {
+  background-color: #ccc;
+  color:white;
+}
+
+div.menu a.active {
+  background-color: #2B6EA4;
+  color: white;
+  border:0.5px solid #2B6EA4;
+}

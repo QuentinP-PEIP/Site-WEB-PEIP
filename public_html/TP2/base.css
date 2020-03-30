@@ -1,0 +1,36 @@
+html{
+background-color: dimgray;
+}
+
+div.un{
+background-color: blue;
+padding-left : 5;
+padding-right : 5; 
+padding-top : 3; 
+padding-bottom : 3;  
+}
+
+div.deux{
+background-color: green;
+padding-left : 5;
+padding-right : 5; 
+padding-top : 3; 
+padding-bottom : 3;  
+}
+div.trois{
+background-color: red;
+padding-left : 5;
+padding-right : 5; 
+padding-top : 3; 
+padding-bottom : 3;
+border-style : solid;
+border-width : 2;
+border-color : black;
+}
+div.quatre{
+background-color: yellow;
+padding-left : 5;
+padding-right : 5; 
+padding-top : 3; 
+padding-bottom : 3;  
+}
